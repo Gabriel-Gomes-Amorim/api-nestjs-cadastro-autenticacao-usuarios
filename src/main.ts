@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   // config swagger
   const config = new DocumentBuilder()
-    .setTitle('Documentação com Swagger - Carvalho Investigação')
+    .setTitle('Documentação com Swagger - api-autenticacao-user')
     .setDescription('')
     .setVersion('1.0')
     .build();

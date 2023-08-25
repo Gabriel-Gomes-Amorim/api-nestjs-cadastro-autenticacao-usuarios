@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-import { User } from './entities/user.entity';
+import { User } from '../entities/user.entity';
 
 //CONEXÃO COM O REPOSITORIO DE USUARIOS NO BANCO
 export const UserProviders = [
